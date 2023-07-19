@@ -70,7 +70,7 @@ const Signup = () => {
     if (validateForm()) {
       try {
         
-        const response = await axios.post("http://localhost:8080/v1/register", formData);
+        const response = await axios.post("https://beautiful-poncho-lamb.cyclic.app/v1/register", formData);
 
         setLoading(false);
 

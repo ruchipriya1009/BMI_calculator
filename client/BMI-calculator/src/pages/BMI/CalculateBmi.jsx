@@ -52,7 +52,7 @@ const CalculateBMI = () => {
 
   const getBmiData=async()=>{
     try {
-      const res=await axios.get('http://localhost:8080/v1/bmi')
+      const res=await axios.get('https://beautiful-poncho-lamb.cyclic.app/v1/bmi')
       setBmiData(res.data);
     } catch (error) {
       console.log(error);

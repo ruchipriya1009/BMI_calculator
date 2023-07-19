@@ -65,7 +65,7 @@ const Login = () => {
     if (validateForm()) {
       try {
         const response = await axios.post(
-          "http://localhost:8080/v1/login",
+          "https://beautiful-poncho-lamb.cyclic.app/v1/login",
           formData
         );
 
