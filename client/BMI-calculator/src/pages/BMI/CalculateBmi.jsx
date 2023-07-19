@@ -79,7 +79,7 @@ const CalculateBMI = () => {
 
     if (validateForm()) {
       try {
-        const response = await axios.post("http://localhost:8080/v1/bmi", {
+        const response = await axios.post("https://beautiful-poncho-lamb.cyclic.app/v1/bmi", {
           userId: userId,
           ...formData,
         });
